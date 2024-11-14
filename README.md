@@ -4,3 +4,4 @@ Ya dimos formato basico de inicio a la pagina, agregamos la imagen, agregamos li
 asignamos en el NAV los enlaces a las diferentes secciones de la pagina
 
 agregamos fondo y estilos
+se agregaron categorias 
