@@ -1,0 +1,29 @@
+body{
+background:rgb(173, 168, 172);    
+background: linear-gradient(20deg, rgb(236, 233, 236) 20%,rgb(138, 112, 129) 50%);
+font-family: "Host Grotesk", sans-serif;
+font-size: 15px;
+}
+.logo{
+    width: 300px;
+    border-radius: 200px;
+    border: solid;
+}
+.catalogo{
+    width: 300px;
+    border-radius: 10px;
+    opacity: 0.5;
+    border: double;
+}
+
+.venta{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.PROM{
+    background-color: purple;
+    /*background-image: url(/imagenes/);*/
+    font-size: 20px;
+    color: #4e0904;
+}

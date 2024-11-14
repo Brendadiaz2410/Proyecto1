@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>NDStore</title>
 </head>
 <body>
     <!--comentario
@@ -17,41 +21,55 @@
     <h1>Nabel Store</h1>
     <!--menu navegador-->
     <nav>
-        <ul>
-
-            <li>CATALOGO</li>
-           
-            <li>PROMOCIONES</li>
-            <li>REGISTRO</li>
-            <li>CONTACTO</li>
+        <a href="">INICIA</a>
+        <a href="#Catalogo">CATALOGO</a>
+        <a href="#Promociones">PROMOCIONES</a>  
+        <a href="#Registro">REGISTRO</a>
+        <a href="#Contacto">CONTACTO</a>
+        
+    </nav>
+    <ul>
             <!--etiqueta a es un ancla-->
             <li>REDES SOCIALES</li>
             <!--traget blank es para enviar a otra pestaña-->
             <a href="https://www.facebook.com/" target="_blank"> accede a redes sociales</a>
         </ul>
-    </nav>
-    
     <!--la p es un parrafo-->
     <p>Nuestra meta es consolidarnos como una tienda local mas exitosa.</p>
     <p>Esperamos atenderlos de la mejor manera</p>
     <!--img es para imagen  alt: es para descripcion-->
-    <img src="/imagenes/logond.png" alt="LOGO">
+    <img class="logo" src="/imagenes/logond.png" alt="LOGO">
+
+    <img class="catalogo" src="/imagenes/cat.jpg" alt="catalogo">
+
+    <img class="venta" src="/imagenes/venta.jpg" alt="">
     <!--lista ordenada-->
-    <h2>Catalogos de productos</h2>
-    <ol>
-        <!--li elementos-->
-        <li>ROPA</li>
-        <li>ACCESORIOS</li>
-        <li>BOLSAS</li>
-        <li>CALZADO</li>
-    </ol>
+    
+
     <!--LISTA DESORDENADA-->
-    <H2>PROMOCIONES</H2>
-    <UL>
+ 
+    <UL id="Promociones">
+        <H2>PROMOCIONES</H2>
         <li>Pedido</li>
         <li>Apartado</li>
         <li>Liquidaciones</li>
         <li>Mayoreo</li>
     </UL>
+    <p id="Registro">
+        REGISTRO
+    </p>
+    <p id="Contacto">
+        CONTACTO
+    </p>
+    <p>Descubre el poder la moda, al mejor precio y de alta calidad. </p>
+    <div class="PROM">
+        <h2>Nuestras promociones</h2>
+        <ul>
+            <li>Promociones de compra</li>
+            <li>Produtos Especiales</li>
+            <li>Suscripciones </li>
+        </ul>
+
+    </div>
 </body>
 </html>
