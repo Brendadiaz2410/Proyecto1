@@ -5,3 +5,4 @@ asignamos en el NAV los enlaces a las diferentes secciones de la pagina
 
 agregamos fondo y estilos
 se agregaron categorias 
+se le dio estilo a las imagenes
